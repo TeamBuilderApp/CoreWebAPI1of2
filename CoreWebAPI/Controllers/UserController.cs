@@ -30,7 +30,7 @@ public class UserController : ControllerBase
     {
         List<User> allUsers = await GetAsync();
         newUser.id = allUsers.Count + 40 + 1;
-        await _users.InsertOneAsync(newUser); ;
+        await _users.InsertOneAsync(newUser);
     }
     
     [HttpGet]
