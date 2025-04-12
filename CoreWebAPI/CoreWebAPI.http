@@ -1,0 +1,6 @@
+@CoreWebAPI_HostAddress = http://localhost:7271
+
+GET {{CoreWebAPI_HostAddress}}
+Accept: application/json
+
+###
